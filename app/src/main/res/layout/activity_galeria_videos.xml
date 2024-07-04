@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".GaleriaVideos">
+
+    <TextView
+        android:id="@+id/titulo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Galeria de Videos"
+        android:textColor="#FFEB3B"
+        android:textAlignment="center"
+        android:background="@drawable/b2"
+        android:textSize="30dp"
+        android:padding="30dp"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/boton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INGRESAR"
+        android:textSize="26sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/b"/>
+
+    <VideoView
+        android:id="@+id/video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>
